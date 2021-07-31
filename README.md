@@ -1,11 +1,11 @@
-# abstractFactory
+# Ejemplo practico de la implementacion de patró de diseño abstractFactory.
+  
 
+# Game Demo
 
-# Game
+Este proyecto es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder. Hace que interactuen despues de que son creados. Finalmente muestra un historial de los enemigos derrotados en el juego.
 
-Este proyecto es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder, hace que interaccion un momento despues de que son creados. Y finalmente muestra un historial de los enemigos derrotados en el juego
-
-* [Clases]: 
+*[Clases]: 
 EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas:
  nivelTotalVida: 100 Representa la vida total del enemigo.
  nombre: G
@@ -35,23 +35,20 @@ git@github.com:DanielVT45/abstractFactory.git
 ```
 
 ### Instalación 🔧
- Para instalar esta aplicacion es necesario descargar una copia de proyecto en local o en un servidor.
+Para instalar esta aplicacion es necesario descargar una copia de proyecto en local o en un servidor.
  
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
 Descarga del programa con https
 ```
 git clone https://github.com/DanielVT45/abstractFactory.git
 ```
 
-Despues verificar que se haya descargado la carpeta del proyecto con el comando:
+Verificar que se haya descargado la carpeta del proyecto con el comando:
 
 ```
-ls
+ls asbtractFactory
 ```
 
-Finalmente acceder al proyecto, descargar las dependencias y correr la aplicacion con los comandos:
+Acceder a la carpeta del proyecto. Descargar las dependencias y finalmente correr la aplicacion con los comandos:
 
 ```
 cd abstractFactory
@@ -87,8 +84,8 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 Para este proyecto se utilizaron las suguientes herramientas de desarrollo:
 
-* [nodejs](https://nodejs.org/es/) - El entorno de ejecucion de javascript (pagina oficial).
-* [npm] (https://www.npmjs.com/) - Manejador de dependencias para la aplicacion (pagina oficial).
+* [nodejs version - 14.17.1](https://nodejs.org/es/) - El entorno de ejecucion de javascript (pagina oficial).
+* [npm version - 7.19.0](https://www.npmjs.com/) - Manejador de dependencias para la aplicacion (pagina oficial).
 
 ## Contribuyendo 🖇️
 
@@ -103,24 +100,22 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+Responsable del proyecto de diseño y de la creacion del 
+* **Daniel Valdez** - *Trabajo Inicial* - [DanielVT45](https://github.com/DanielVT45)
+* **Daniel Valdez** - *Documentación* - [DanielVT45](https://github.com/DanielVT45)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (GPL) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
 * Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
 * Da las gracias públicamente 🤓.
-* etc.
+
 
 
 
