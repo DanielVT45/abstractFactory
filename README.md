@@ -5,7 +5,7 @@
 
 Este proyecto es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder, hace que interaccion un momento despues de que son creados. Y finalmente muestra un historial de los enemigos derrotados en el juego
 
-* [Clases:] 
+* [Clases]: 
 EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas:
  nivelTotalVida: 100 Representa la vida total del enemigo.
  nombre: G
@@ -20,30 +20,44 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Para instalar el proyecto es necesario tener instalado en la computadora la version de nodejs 
+* **nodejs 14.0.0 o superior** [nodejs](https://nodejs.org/)
+* **npm 7.19.0 ** [nodejs](https://nodejs.org/)
 
+Descargarlo con el protocolo seguro: https.
 ```
-Da un ejemplo
+https://github.com/DanielVT45/abstractFactory.git
+```
+
+Descargarlo con protocolo seguro ssh.
+```
+git@github.com:DanielVT45/abstractFactory.git
 ```
 
 ### Instalación 🔧
- Para instalar esta aplicacion es necesario instalar la version de NodeJS >= 14.0.0 o superior
+ Para instalar esta aplicacion es necesario descargar una copia de proyecto en local o en un servidor.
  
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
 _Dí cómo será ese paso_
-
+Descarga del programa con https
 ```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
+git clone https://github.com/DanielVT45/abstractFactory.git
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+Despues verificar que se haya descargado la carpeta del proyecto con el comando:
+
+```
+ls
+```
+
+Finalmente acceder al proyecto, descargar las dependencias y correr la aplicacion con los comandos:
+
+```
+cd abstractFactory
+npm install
+node index.js
+```
 
 ## Ejecutando las pruebas ⚙️
 
@@ -71,10 +85,10 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+Para este proyecto se utilizaron las suguientes herramientas de desarrollo:
 
-* [NodeJS](https://nodejs.org/es/) - El entorno de ejeccucion de javascript (pagina oficial).
-* [NPM](https://www.npmjs.com/) - Manejador de dependencias para la aplicacion (pagina oficial).
+* [nodejs](https://nodejs.org/es/) - El entorno de ejecucion de javascript (pagina oficial).
+* [npm] (https://www.npmjs.com/) - Manejador de dependencias para la aplicacion (pagina oficial).
 
 ## Contribuyendo 🖇️
 
