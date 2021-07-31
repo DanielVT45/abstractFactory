@@ -12,7 +12,7 @@ EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tie
 
 ## Prueba en vivo de la aplicacion:
 * **Desde la pagina replit.com**
-[replit.com](https://replit.com/@DanielValdez2/abstracFactoryGameDemo#index.js)
+[proyecto - abstractFactoryGameDemo](https://replit.com/@DanielValdez2/abstracFactoryGameDemo#index.js)
 
 
 ## Diagrama de clases
@@ -23,11 +23,14 @@ EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tie
 ## Comenzando 🚀
 
 Para probar el proyecto y realizar pruebas en local puede descargalo desde los siguientes ligas:
-* [https:] Descargar el proyecto utilizando el protocolo seguro https.
-* []
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
+* **Con el protocolo seguro ssh:**
+```
+git@github.com:DanielVT45/abstractFactory.git
+```
+* **Con el protocolo seguro https:**
+```
+https://github.com/DanielVT45/abstractFactory.git
+```
 ### Pre-requisitos 📋
 
 Para instalar el proyecto es necesario tener instalado en la computadora la version de nodejs 
