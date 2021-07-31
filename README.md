@@ -6,7 +6,7 @@
 Este proyecto, es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder. Hace que interactuen despues de que son creados. Finalmente muestra un historial de los enemigos derrotados en el juego.
 
 * **Clases**: 
-EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas:
+***EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas:
  nivelTotalVida: 100 Representa la vida total del enemigo.
  nombre: G
 
@@ -33,9 +33,12 @@ https://github.com/DanielVT45/abstractFactory.git
 ```
 ### Pre-requisitos 📋
 
-Para instalar el proyecto es necesario tener instalado en la computadora la version de nodejs 
+Es necesario tener instalado en la computadora los siguientes programas:
 * **nodejs 14.0.0 o superior** [nodejs](https://nodejs.org/)
 * **npm 7.19.0 ** [nodejs](https://nodejs.org/)
+
+
+### Descargas de la aplicacion
 
 Descargarlo con el protocolo seguro: https.
 ```
