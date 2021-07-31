@@ -10,8 +10,13 @@ EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tie
  nivelTotalVida: 100 Representa la vida total del enemigo.
  nombre: G
 
-## Diagrama
-![image](https://user-images.githubusercontent.com/51674961/127724451-819e72c7-4f3a-4157-a7f6-701d4d993033.png)
+## Prueba en vivo de la aplicacion:
+* **Desde la pagina replit.com**
+[replit.com](https://replit.com/@DanielValdez2/abstracFactoryGameDemo#index.js)
+
+
+## Diagrama de clases
+![image](https://user-images.githubusercontent.com/51674961/127724522-e04dcd2a-54d1-458f-96bd-7b7f54ea9944.png)
 
 
 
