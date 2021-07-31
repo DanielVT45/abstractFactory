@@ -1,14 +1,19 @@
-# Ejemplo practico de la implementacion de patró de diseño abstractFactory.
+# AbstractFactory.
   
 
 # Game Demo
 
-Este proyecto es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder. Hace que interactuen despues de que son creados. Finalmente muestra un historial de los enemigos derrotados en el juego.
+Este proyecto, es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder. Hace que interactuen despues de que son creados. Finalmente muestra un historial de los enemigos derrotados en el juego.
 
-*[Clases]: 
+* **Clases**: 
 EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas:
  nivelTotalVida: 100 Representa la vida total del enemigo.
  nombre: G
+
+## Diagrama
+![image](https://user-images.githubusercontent.com/51674961/127724451-819e72c7-4f3a-4157-a7f6-701d4d993033.png)
+
+
 
 ## Comenzando 🚀
 
