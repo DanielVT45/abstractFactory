@@ -2,19 +2,27 @@
   
 
 # Game Demo
+Este proyecto representa un ejemplo de implementacion del patrón de diseño "Abstract Factory" con "javascript Vanilla". 
+El programa llama a fabricas e instancia enemigos de diferentes niveles de poder **(El poder dependera de la fabrica).** Posteriormente el programa hace que interactuen a través de metodos previamente definidos en las clases. 
 
-Este proyecto, es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder. Hace que interactuen despues de que son creados. 
-Finalmente muestra un historial de los enemigos derrotados en el juego.
+Finalmente muestra un historial de los enemigos "derrotados" en la duracion del programa.
 
-**Clases**
-***EnemigosNivel1: Es una clase que implementa de una interfaz "Enemigos.js" Crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas:
- * nivelTotalVida: 100 Representa la vida total del enemigo.
- * nombre: Representa el nombre del enemigo.
- * nivelVida: Es la vida restante del enemigo en un tiempo determinado del juego.
- * nivel: Es el nivel del juego al que pertecene el enemigo.
- * daño: Es el daño que causa el enemigo al atacar.
- * PerteneceA: Es una relacion entre el enemigo y un historial del Juegador.
- * estaVivo: Representa si actualmente esta vivo el enemigo en el juego.
+### Clases
+**FabricaEnemigosNivel1:** Es una clase que implementa la interfaz "FabricaEnemigos". Representa una fabrica de enemigos de nivel 2, es llamada cuando se quiere instanciar un enemigo en el programa.
+
+#### EnemigosNivel1: Es una clase que implementa de una interfaz "Enemigos.js" Sirve para crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas o atributos:
+ * **nivelTotalVida:** Representa la vida por defecto del enemigo "100%".
+ * **nombre:** Es el nombre del enemigo.
+ * **nivelVida:** Es la vida restante o total del enemigo a lo largo del juego.
+ * **nivel:** Es el nivel del juego al que pertecene el enemigo.
+ * **dano:** Es el daño que causa el enemigo al atacar.
+ * **PerteneceA:** Es una relacion entre el enemigo y un historial del Juegador.
+ * **estaVivo:** Representa si actualmente esta vivo el enemigo en el juego.
+
+### Metodos
+* **atacar(): number** Este metodo sirve para atacar y restar nivel de vida.
+*  **recibirDano(): void** Este metodo resta vida al enemigo.
+*  **morir(): void** Este metodo sirve para cambiar el estado del enemigo y determinar que fue eliminado.
 
 ## Prueba en vivo de la aplicacion:
 * **Desde la pagina replit.com**
@@ -22,7 +30,7 @@ Finalmente muestra un historial de los enemigos derrotados en el juego.
 
 
 ## Diagrama de clases
-![image](https://user-images.githubusercontent.com/51674961/128103095-8879199e-a74d-40ca-8f9a-95a187a8698d.png)
+![image](https://user-images.githubusercontent.com/51674961/128126451-44759aab-ed5a-4e73-adb3-d854cd31e018.png)
 
 
 ## Comenzando 🚀
@@ -108,36 +116,12 @@ Para este proyecto se utilizaron las suguientes herramientas de desarrollo:
 * [nodejs version - 14.17.1](https://nodejs.org/es/) - El entorno de ejecucion de javascript (pagina oficial).
 * [npm version - 7.19.0](https://www.npmjs.com/) - Manejador de dependencias para la aplicacion (pagina oficial).
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://github.com/DanielVT45) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
 ## Autores ✒️
 Responsable del proyecto de diseño y de la creacion del 
 * **Daniel Valdez** - *Trabajo Inicial* - [DanielVT45](https://github.com/DanielVT45)
 * **Daniel Valdez** - *Documentación* - [DanielVT45](https://github.com/DanielVT45)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (GPL) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-
-
+También puedes mirar la lista de todos los [contribuyentes](https://github.com) quíenes han participado en este proyecto. 
 
 
 ---
