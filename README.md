@@ -3,12 +3,18 @@
 
 # Game Demo
 
-Este proyecto, es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder. Hace que interactuen despues de que son creados. Finalmente muestra un historial de los enemigos derrotados en el juego.
+Este proyecto, es un ejemplo de la aplicación del patrón de diseño "Abstract Factory" con "javascript Vanilla". El programa crea enemigos de diferentes niveles de poder. Hace que interactuen despues de que son creados. 
+Finalmente muestra un historial de los enemigos derrotados en el juego.
 
-* **Clases**: 
-***EnemigosNivel1: Es una clase para crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas:
- nivelTotalVida: 100 Representa la vida total del enemigo.
- nombre: G
+**Clases**
+***EnemigosNivel1: Es una clase que implementa de una interfaz "Enemigos.js" Crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas:
+ * nivelTotalVida: 100 Representa la vida total del enemigo.
+ * nombre: Representa el nombre del enemigo.
+ * nivelVida: Es la vida restante del enemigo en un tiempo determinado del juego.
+ * nivel: Es el nivel del juego al que pertecene el enemigo.
+ * daño: Es el daño que causa el enemigo al atacar.
+ * PerteneceA: Es una relacion entre el enemigo y un historial del Juegador.
+ * estaVivo: Representa si actualmente esta vivo el enemigo en el juego.
 
 ## Prueba en vivo de la aplicacion:
 * **Desde la pagina replit.com**
@@ -16,8 +22,7 @@ Este proyecto, es un ejemplo de la aplicación del patrón de diseño "Abstract 
 
 
 ## Diagrama de clases
-![image](https://user-images.githubusercontent.com/51674961/127724522-e04dcd2a-54d1-458f-96bd-7b7f54ea9944.png)
-
+![image](https://user-images.githubusercontent.com/51674961/128103095-8879199e-a74d-40ca-8f9a-95a187a8698d.png)
 
 
 ## Comenzando 🚀
