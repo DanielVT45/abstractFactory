@@ -1,16 +1,22 @@
 # AbstractFactory.
-  
+  Ejemplo practico de la implementacion del patron **Abstract Factory.**
 
 # Game Demo
-Este proyecto representa un ejemplo de implementacion del patrón de diseño "Abstract Factory" con "javascript Vanilla". 
+Este proyecto representa un ejemplo de implementacion del patrón de diseño **"Abstract Factory"** con "javascript Vanilla". 
 El programa llama a fabricas e instancia enemigos de diferentes niveles de poder **(El poder dependera de la fabrica).** Posteriormente el programa hace que interactuen a través de metodos previamente definidos en las clases. 
 
 Finalmente muestra un historial de los enemigos "derrotados" en la duracion del programa.
 
-### Clases
-**FabricaEnemigosNivel1:** Es una clase que implementa la interfaz "FabricaEnemigos". Representa una fabrica de enemigos de nivel 2, es llamada cuando se quiere instanciar un enemigo en el programa.
+## Clases
+### FabricaEnemigosNivel1 
+Es una clase que implementa la interfaz "FabricaEnemigos". Representa una fabrica de enemigos de nivel 2, es llamada cuando se quiere instanciar un enemigo en el programa.
 
-#### EnemigosNivel1: Es una clase que implementa de una interfaz "Enemigos.js" Sirve para crear objetos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas o atributos:
+#### Metodos
+* **crearEnemigo(): object** Este metodo retorna un objecto de tipo enemigo Nivel1 "Goomba".
+
+### EnemigosNivel1
+Es una clase que implementa de una interfaz "Enemigos.js" Sirve para instanciar a traves de la fabrica enemimos de tipo: Gomba. Este enemigo tiene las siguientes caracteristicas o atributos:
+
  * **nivelTotalVida:** Representa la vida por defecto del enemigo "100%".
  * **nombre:** Es el nombre del enemigo.
  * **nivelVida:** Es la vida restante o total del enemigo a lo largo del juego.
@@ -19,7 +25,7 @@ Finalmente muestra un historial de los enemigos "derrotados" en la duracion del 
  * **PerteneceA:** Es una relacion entre el enemigo y un historial del Juegador.
  * **estaVivo:** Representa si actualmente esta vivo el enemigo en el juego.
 
-### Metodos
+#### Metodos
 * **atacar(): number** Este metodo sirve para atacar y restar nivel de vida.
 *  **recibirDano(): void** Este metodo resta vida al enemigo.
 *  **morir(): void** Este metodo sirve para cambiar el estado del enemigo y determinar que fue eliminado.
@@ -48,7 +54,7 @@ https://github.com/DanielVT45/abstractFactory.git
 
 Es necesario tener instalado en la computadora los siguientes programas:
 * **nodejs 14.0.0 o superior** [nodejs](https://nodejs.org/)
-* **npm 7.19.0 ** [nodejs](https://nodejs.org/)
+* **npm 7.19.0** [npm](https://npmjs.com/)
 
 
 ### Descargas de la aplicacion
